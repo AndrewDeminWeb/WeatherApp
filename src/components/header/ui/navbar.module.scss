@@ -1,0 +1,20 @@
+.navBar {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f3f3f3;
+	padding: 10px 0;
+
+	.navList ul {
+		display: flex;
+		gap: 20px;
+		list-style: none;
+
+		li {
+			font-size: 18px;
+			font-weight: 600;
+			cursor: pointer;
+		}
+	}
+}
